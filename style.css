@@ -15,7 +15,7 @@
   header div.sunflower {
     display: flex;
     align-items: center;
-    flex: 5 1 400px;
+    flex: 5 1 600px;
     margin-left: 2rem;
   }
   header div.sunflower img {
@@ -23,7 +23,7 @@
     height: 6vw;
   }
   header nav {
-    flex: 2 1 400px;
+    flex: 2 1 600px;
   }
   header nav ul {
     display: flex;
