@@ -99,7 +99,7 @@
     flex-wrap: wrap;
   }
   footer nav ul li {
-    flex-basis: 100px;
+    flex-basis: 60px;
   }
   footer nav ul li a {
     color: white;
