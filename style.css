@@ -455,3 +455,110 @@ footer section.links a img {
     box-shadow: none;
   }
 }
+
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+}
+ 
+body {
+    font-family: Arial;
+    margin: 0;
+}
+ 
+.header PVZ1{
+    padding: 80px;
+    text-align: center;
+    background: #1abc9c;
+    color: white;
+    background-image: url('https://img.siemens-home.cn/uploadimg/image/20210525/20210525144221_45091.jpg');
+    background-repeat:no-repeat;
+    background-size: 1150px 375px;
+    font-family: fantasy
+}
+ 
+.header PVZ1 h1 {
+    font-size: 40px;
+}
+ 
+.navbar PVZ1{
+    overflow: hidden;
+    background-color:saddlebrown;
+}
+ 
+.navbar a PVZ1{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-family: fantasy
+}
+ 
+.navbar a.right PVZ1{
+    float: right;
+}
+ 
+.navbar a:hover PVZ1{
+    background-color: burlywood;
+    color: black;
+}
+ 
+.row PVZ1{  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    font-family: fantasy
+}
+ 
+.side PVZ1{
+    -ms-flex: 30%; /* IE10 */
+    flex: 30%;
+    background-color: darkorange;
+    padding: 20px;
+    font-family: fantasy
+}
+ 
+.main PVZ1{   
+    -ms-flex: 70%; /* IE10 */
+    flex: 70%;
+    background-color: goldenrod;
+    padding: 20px;
+    font-family: fantasy
+}
+ 
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+    font-family: fantasy
+}
+ 
+.footer PVZ1{
+    padding: 20px;
+    text-align: center;
+    background: blueviolet;
+    font-family: fantasy
+}
+ 
+@media screen and (max-width: 700px) PVZ1{
+    .row {   
+        flex-direction: column;
+    }
+}
+ 
+@media screen and (max-width: 400px) PVZ1{
+    .navbar a {
+        float: none;
+        width: 100%;
+    }
+}
