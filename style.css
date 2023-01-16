@@ -408,7 +408,7 @@ footer section.links a img {
     font-weight: 600;
     text-decoration: none;
     font-size: 2rem;
-
+  }
   .game-name1 {
     margin: 5rem 10rem;
   }
@@ -420,7 +420,7 @@ footer section.links a img {
   .form-img {
     width: 40rem;
   }
-}
+  }
 
 @media (max-width: 950px) {
   .form-img {
@@ -558,15 +558,3 @@ body {
     font-family: fantasy
 }
  
-@media screen and (max-width: 700px) PVZ1{
-    .row {   
-        flex-direction: column;
-    }
-}
- 
-@media screen and (max-width: 400px) PVZ1{
-    .navbar a {
-        float: none;
-        width: 100%;
-    }
-}
